@@ -5615,7 +5615,11 @@ Created using IcoMoon - icomoon.io
 	padding-top: 60px;
 	padding-right: 0;
 	text-align: center;
-	color: #fff;
+	/*color: #fff;*/
+}
+.cc-education-sombra {
+	-webkit-box-shadow: 4px 0px 7px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: 4px 0px 7px 1px rgba(0, 0, 0, 0.2);
 }
 /* References Style */
 
@@ -5721,7 +5725,7 @@ a.credit {
 	margin-right: 19px;
 	/*background-color: rgba(222, 222, 222, 0.3);*/
 	background-color: rgba(209, 209, 209, 0.8);
-	border-radius: 6px;
+	border-radius: 0.1875rem;
 	line-height: 60px;
 	text-decoration: none;
 }
