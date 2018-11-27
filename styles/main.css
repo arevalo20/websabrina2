@@ -1956,6 +1956,9 @@ h5, .h5 {
 	line-height: 1.4em;
 	margin-bottom: 15px;
 }
+.card-body .h5 {
+	text-transform: uppercase;
+}
 h6, .h6 {
 	font-size: 1em;
 	font-weight: 700;
