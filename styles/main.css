@@ -3714,7 +3714,7 @@ Created using IcoMoon - icomoon.io
 .section {
 	padding: 70px 0;
 	position: relative;
-	background: #FFFFFF;
+	/*background: #FFFFFF;*/
 }
 .section .row+.category {
 	margin-top: 15px;
@@ -5716,7 +5716,8 @@ a.credit {
 	font-weight: 400;
 	color: #1c1c1c;
 	margin-right: 19px;
-	background-color: rgba(222, 222, 222, 0.3);
+	/*background-color: rgba(222, 222, 222, 0.3);*/
+	background-color: rgba(209, 209, 209, 0.8);
 	border-radius: 6px;
 	line-height: 60px;
 	text-decoration: none;
@@ -5735,6 +5736,21 @@ a.credit {
 	/*margin-top: 15px;*/
 	height: auto;
 }
+.portfolio-section .p-item a {
+	display: inline-block;
+	position: relative;
+	-webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2);
+}
+/*.portfolio-section .p-item a:hover {
+	-webkit-transform: scale(1.06, 1.06);
+	transform: scale(1.06, 1.06);
+}*/
+
+.fluidbox__ghost {
+	-webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.8);
+	box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.8);
+}
 @media (max-width: 767px) {
 	.portfolio-section .portfolioFilter {
 		margin-top: 0px;
@@ -5748,8 +5764,4 @@ a.credit {
 	.portfolio-section .p-item {
 		width: 100%;
 	}
-}
-.portfolio-section .p-item a {
-	display: inline-block;
-	position: relative;
 }
