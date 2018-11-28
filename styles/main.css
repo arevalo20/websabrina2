@@ -5728,6 +5728,7 @@ a.credit {
 	border-radius: 0.1875rem;
 	line-height: 60px;
 	text-decoration: none;
+	text-transform: uppercase;
 }
 .portfolio-section .portfolioFilter a:hover {
 	background-color: #1c1c1c;
@@ -5755,8 +5756,8 @@ a.credit {
 }*/
 
 .fluidbox__ghost {
-	-webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.8);
-	box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.8);
+	-webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
+	box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.4);
 }
 @media (max-width: 767px) {
 	.portfolio-section .portfolioFilter {
